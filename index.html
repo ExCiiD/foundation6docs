@@ -1,0 +1,259 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foundation for Sites</title>
+  <link rel="stylesheet" href="css/foundation.css">
+  <link rel="stylesheet" href="css/app.css">
+  <!-- Compressed JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js"
+    crossorigin="anonymous"></script>
+  <!-- Compressed CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css"
+    crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <h1>Welcome to Foundation</h1>
+      </div>
+    </div>
+
+    <div class="grid-x grid-padding-x">
+      <div class="large-12 cell">
+        <div class="callout">
+          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
+          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or
+            totally destroy to get going.</p>
+          <p>Once you've exhausted the fun in this document, you should check out:</p>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-4 cell">
+              <p><a href="https://get.foundation/sites/docs/">Foundation Documentation</a><br />Everything you need to
+                know about using the framework.</p>
+            </div>
+            <div class="large-4 medium-4 cell">
+              <p><a href="https://github.com/foundation/foundation-sites/discussions">Foundation Forum</a><br />Join the
+                Foundation community to ask a question or show off your knowlege.</p>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-4 medium-push-2 cell">
+              <p><a href="https://github.com/foundation/foundation-sites">Foundation on Github</a><br />Latest code,
+                issue reports, feature requests and more.</p>
+            </div>
+            <div class="large-4 medium-4 medium-pull-2 cell">
+              <p><a href="https://twitter.com/FoundationCSS">@FoundationCSS</a><br />Ping us on Twitter if you have
+                questions. When you build something with this we'd love to see it.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid-x grid-padding-x">
+      <div class="large-8 medium-8 cell">
+        <h5>Here&rsquo;s your basic grid:</h5>
+        <!-- Grid Example -->
+
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            <div class="primary callout">
+              <p><strong>This is a twelve cell section in a grid-x.</strong> Each of these includes a div.callout
+                element so you can see where the cell are - it's not required at all for the grid.</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+          <div class="large-6 medium-6 cell">
+            <div class="primary callout">
+              <p>Six cell</p>
+            </div>
+          </div>
+          <div class="large-6 medium-6 cell">
+            <div class="primary callout">
+              <p>Six cell</p>
+            </div>
+          </div>
+        </div>
+        <div class="grid-x grid-padding-x">
+          <div class="large-4 medium-4 small-4 cell">
+            <div class="primary callout">
+              <p>Four cell</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 cell">
+            <div class="primary callout">
+              <p>Four cell</p>
+            </div>
+          </div>
+          <div class="large-4 medium-4 small-4 cell">
+            <div class="primary callout">
+              <p>Four cell</p>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
+        <form>
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <label>Input Label</label>
+              <input type="text" placeholder="large-12.cell" />
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-4 medium-4 cell">
+              <label>Input Label</label>
+              <input type="text" placeholder="large-4.cell" />
+            </div>
+            <div class="large-4 medium-4 cell">
+              <label>Input Label</label>
+              <input type="text" placeholder="large-4.cell" />
+            </div>
+            <div class="large-4 medium-4 cell">
+              <div class="grid-x">
+                <label>Input Label</label>
+                <div class="input-group">
+                  <input type="text" placeholder="small-9.cell" class="input-group-field" />
+                  <span class="input-group-label">.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <label>Select Box</label>
+              <select>
+                <option value="husker">Husker</option>
+                <option value="starbuck">Starbuck</option>
+                <option value="hotdog">Hot Dog</option>
+                <option value="apollo">Apollo</option>
+              </select>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-6 medium-6 cell">
+              <label>Choose Your Favorite</label>
+              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
+              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
+            </div>
+            <div class="large-6 medium-6 cell">
+              <label>Check these out</label>
+              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+            </div>
+          </div>
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <label>Textarea Label</label>
+              <textarea placeholder="small-12.cell"></textarea>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="large-4 medium-4 cell">
+        <h5>Try one of these buttons:</h5>
+        <p><a href="#" class="button">Simple Button</a><br />
+          <a href="#" class="success button">Success Btn</a><br />
+          <a href="#" class="alert button">Alert Btn</a><br />
+          <a href="#" class="secondary button">Secondary Btn</a>
+        </p>
+        <div class="callout">
+          <h5>So many components, girl!</h5>
+          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with
+            details on making them your own.</p>
+          <a href="https://get.foundation/sites/docs/" class="small button">Go to Foundation Docs</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- CAROUSEL -->
+  <div class="news-image-gallery-container">
+    <div class="row">
+      <div class="small-12 medium-12 large-8 columns">
+        <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit
+          data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+          <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+              <img class="orbit-image" src="https://i.imgur.com/4K3hXoZ.jpg" alt="Space">
+              <figcaption class="orbit-caption">Space, the final frontier.</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="https://i.imgur.com/V7zk0Y3.jpg" alt="Space">
+              <figcaption class="orbit-caption">Lets Rocket!</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="https://i.imgur.com/vivEvd0.jpg" alt="Space">
+              <figcaption class="orbit-caption">Encapsulating</figcaption>
+            </li>
+            <li class="orbit-slide">
+              <img class="orbit-image" src="https://i.imgur.com/VKdPzTp.jpg" alt="Space">
+              <figcaption class="orbit-caption">Outta This World</figcaption>
+            </li>
+          </ul>
+          <nav class="orbit-bullets">
+            <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span
+                class="show-for-sr">Current Slide</span></button>
+            <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+            <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+            <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+          </nav>
+        </div>
+      </div>
+      <div class="small-12 medium-12 large-4 columns">
+        <div class="rounded-social-buttons">
+          <a class="social-button facebook" href="#"></a>
+          <a class="social-button twitter" href="#"></a>
+          <a class="social-button linkedin" href="#"></a>
+          <a class="social-button google-plus" href="#"></a>
+        </div>
+        <div class="clearfix"></div>
+        <h4 class="news-image-gallery-title">Extraterrestrial culture: How we express ourselves through space
+          exploration</h4>
+        <p>
+          This is not a new thing. Terrestrial cultures have (always) had a degree of extraterrestrial-ity in them.
+          Cultural astronomers and archeoastronomers...
+          <a href="#" class="read-more">
+            Read More
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+<!-- CARD -->
+  <div class="card card-product">
+    <div class="card-product-img-wrapper">
+      <a class="button expanded">Add to Cart</a>
+      <a href="#"><img
+          src="https://demandware.edgesuite.net/sits_pod15/dw/image/v2/AAJE_PRD/on/demandware.static/-/Sites-pacsun_storefront_catalog/default/dw2dd1a5fe/product_images/0702497750034NEW_00_165.jpg?sw=215&sh=334&sm=fit"></a>
+    </div>
+    <div class="card-section">
+      <a href="#">
+        <h3 class="card-product-name">Kickin with Kraken Tee</h3>
+      </a>
+      <h5 class="card-product-price">$19.99</h5>
+      <p class="card-product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin posuere sem
+        enim, accumsan convallis risus semper.</p>
+    </div>
+  </div>
+
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
